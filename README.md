@@ -1,170 +1,267 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:8b5cf6&height=200&section=header&text=NotesMind&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Notes%20Platform&descAlignY=58&descSize=20" width="100%"/>
+# 🧠 NotesMind
 
-<p>
-  <a href="https://sanjay652005-notes-sharing.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live Demo-Vercel-black?style=for-the-badge&logo=vercel" />
-  </a>
-  <a href="https://notes-sharing-q98k.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/⚙️ API-Render-46e3b7?style=for-the-badge&logo=render" />
-  </a>
-  <img src="https://img.shields.io/badge/Stack-MERN-61dafb?style=for-the-badge&logo=mongodb" />
-  <img src="https://img.shields.io/badge/AI-Groq%20%7C%20Llama%203.1-ff6b35?style=for-the-badge" />
-</p>
+### AI-Powered Smart Note-Taking Web Application
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+
+> **Write less. Capture more. Remember everything.**  
+> NotesMind is a full-stack MERN note-taking app with AI-assisted summarization, smart tagging, and a clean dark-themed UI — built for students and developers who think fast.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-FFD54F?style=for-the-badge)](https://github.com/sanjay-p/notesmind)
+[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-Issues-red?style=for-the-badge)](https://github.com/sanjay-p/notesmind/issues)
+[![Request Feature](https://img.shields.io/badge/💡_Request_Feature-Issues-blue?style=for-the-badge)](https://github.com/sanjay-p/notesmind/issues)
 
 </div>
 
 ---
 
-## 🧠 What is NotesMind?
+## 📸 Preview
 
-**NotesMind** is a full-stack AI-powered notes platform where you can upload documents, chat with them, generate quizzes, get summaries, and semantically search across your knowledge base — all in one place.
+> *Screenshot placeholder — add your app screenshots here*
 
-Built with the **MERN stack** and powered by **Groq AI (Llama 3.1)**, it's designed to transform passive notes into an active learning tool.
+| Dashboard | Note Editor | Search & Filter |
+|-----------|-------------|-----------------|
+| ![Dashboard](./screenshots/dashboard.png) | ![Editor](./screenshots/editor.png) | ![Search](./screenshots/search.png) |
 
 ---
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 📂 **File Upload** | Upload PDF, TXT, and MD files |
-| 🤖 **AI Chat** | Chat with your notes using Groq AI |
-| 📝 **Auto Summary** | Instant AI-generated summaries |
-| 🧩 **Quiz Generator** | Auto-generate quizzes from your notes |
-| 🏷️ **Auto-Tagging** | Smart tags generated from content |
-| 🔍 **Semantic Search** | Search by meaning, not just keywords |
-| 🔖 **Bookmarks** | Save and organize your important notes |
-| 🔗 **Note Sharing** | Share notes with unique public links |
-| 🔐 **JWT Auth** | Secure signup/login with token-based auth |
-| 🚦 **Rate Limiting** | API protection with request throttling |
-| 🐳 **Docker Support** | Containerized for easy deployment |
-| 📱 **Mobile Responsive** | Fully responsive across all devices |
+### 📝 Core Note Management
+- **Create, Read, Update, Delete** notes with a rich text editor
+- **Pin important notes** to the top of your dashboard
+- **Note status** — Active / Archived / Deleted (soft delete with recovery)
+- **Character & word count** displayed in real time
+
+### 🤖 AI-Powered
+- **Auto-Summary** — generate a quick TL;DR of any note with one click
+- **Smart Tag Suggestions** — AI detects topics and proposes relevant tags
+- **Content categorization** — notes are grouped by detected subject
+
+### 🔍 Search & Organization
+- **Full-text search** across all notes — instant results
+- **Filter by tag**, date, or category
+- **Sort by** last modified, created date, or title
+- **Color labels** for visual organization
+
+### 🔐 Authentication & Security
+- **JWT-based auth** with secure HTTP-only cookies
+- **Refresh token** rotation for persistent sessions
+- **Password hashing** with bcrypt
+- **Protected routes** — all notes are user-scoped
+
+### 🎨 UI / UX
+- **Dark-themed interface** — easy on the eyes, built for long sessions
+- **Responsive design** — works on desktop, tablet, and mobile
+- **Smooth animations** with CSS transitions
+- **Toast notifications** for all user actions
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-- React.js + Vite
-- Tailwind CSS
-- Axios
-
-**Backend**
-- Node.js + Express.js
-- MongoDB Atlas + Mongoose
-- JWT Authentication
-- Multer (file uploads)
-- Express Rate Limiter
-
-**AI**
-- Groq SDK (Llama 3.1 70B)
-- Semantic search via embeddings
-
-**DevOps**
-- Docker + Docker Compose
-- Deployed on Vercel (frontend) + Render (backend)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js v18+
-- MongoDB Atlas URI
-- Groq API Key
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/sanjay652005/notes-sharing.git
-cd notes-sharing
-```
-
-### 2. Setup Backend
-
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file in `/backend`:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_atlas_uri
-JWT_SECRET=your_jwt_secret
-GROQ_API_KEY=your_groq_api_key
-```
-
-```bash
-npm run dev
-```
-
-### 3. Setup Frontend
-
-```bash
-cd ../frontend
-npm install
-```
-
-Create a `.env` file in `/frontend`:
-
-```env
-VITE_API_URL=http://localhost:5000
-```
-
-```bash
-npm run dev
-```
-
-### 4. Or use Docker
-
-```bash
-docker-compose up --build
-```
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | React.js, React Router v6, Axios |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB, Mongoose ODM |
+| **Auth** | JWT, bcryptjs |
+| **AI** | OpenAI API / Groq API (summarization & tagging) |
+| **Styling** | CSS Modules / Tailwind CSS |
+| **Dev Tools** | Vite, ESLint, Postman |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-notes-sharing/
-├── backend/
-│   ├── controllers/       # Route handlers
-│   ├── middleware/        # Auth, rate limiter
-│   ├── models/            # Mongoose schemas
-│   ├── routes/            # Express routes
-│   └── server.js
-├── frontend/
+notesmind/
+├── client/                    # React frontend
 │   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/         # Route-level pages
-│   │   └── App.jsx
-└── docker-compose.yml
+│   │   ├── components/        # Reusable UI components
+│   │   │   ├── NoteCard/
+│   │   │   ├── NoteEditor/
+│   │   │   ├── SearchBar/
+│   │   │   └── TagFilter/
+│   │   ├── pages/             # Route-level pages
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── context/           # Auth & Notes context
+│   │   ├── services/          # API call functions
+│   │   └── utils/
+│   └── package.json
+│
+├── server/                    # Express backend
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── noteController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Note.js
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   └── note.routes.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorHandler.js
+│   ├── config/
+│   │   └── db.js
+│   └── server.js
+│
+├── .env.example
+├── README.md
+└── package.json
 ```
 
 ---
 
-## 🌐 Live URLs
+## ⚙️ Getting Started
 
-| Service | URL |
-|---|---|
-| Frontend | [sanjay652005-notes-sharing.vercel.app](https://sanjay652005-notes-sharing.vercel.app) |
-| Backend API | [notes-sharing-q98k.onrender.com](https://notes-sharing-q98k.onrender.com) |
+### Prerequisites
+- Node.js v18+
+- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+- npm or yarn
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sanjay-p/notesmind.git
+cd notesmind
+```
+
+### 2. Set Up Environment Variables
+
+Create a `.env` file in the `/server` directory:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+JWT_REFRESH_SECRET=your_refresh_secret_key
+GROQ_API_KEY=your_groq_api_key      # For AI summarization
+NODE_ENV=development
+```
+
+Create a `.env` file in the `/client` directory:
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+### 3. Install Dependencies
+
+```bash
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+```
+
+### 4. Run the Application
+
+```bash
+# Start the backend (from /server)
+npm run dev
+
+# Start the frontend (from /client)
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🔌 API Endpoints
+
+### Auth Routes — `/api/auth`
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `POST` | `/register` | Register a new user | ❌ |
+| `POST` | `/login` | Login and receive tokens | ❌ |
+| `POST` | `/refresh` | Refresh access token | ❌ |
+| `POST` | `/logout` | Logout and clear session | ✅ |
+
+### Note Routes — `/api/notes`
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `GET` | `/` | Get all notes for current user | ✅ |
+| `GET` | `/:id` | Get single note by ID | ✅ |
+| `POST` | `/` | Create a new note | ✅ |
+| `PUT` | `/:id` | Update note content or metadata | ✅ |
+| `DELETE` | `/:id` | Soft-delete a note | ✅ |
+| `POST` | `/:id/summarize` | AI summarize note content | ✅ |
+| `POST` | `/:id/tag` | AI suggest tags for note | ✅ |
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Core CRUD notes
+- [x] JWT Authentication
+- [x] Search & filter
+- [x] AI summarization
+- [x] Pin notes
+- [ ] Rich text editor (Quill / TipTap)
+- [ ] Note sharing via public link
+- [ ] Folder/notebook organization
+- [ ] Export notes as PDF / Markdown
+- [ ] Collaborative editing (Socket.IO)
+- [ ] Mobile app (React Native)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+```bash
+# 1. Fork the repo
+# 2. Create your feature branch
+git checkout -b feature/your-feature-name
+
+# 3. Commit your changes
+git commit -m "feat: add your feature"
+
+# 4. Push to the branch
+git push origin feature/your-feature-name
+
+# 5. Open a Pull Request
+```
+
+Please follow the [Conventional Commits](https://www.conventionalcommits.org/) standard.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
 
-**Sanjay P**
-- GitHub: [@sanjay652005](https://github.com/sanjay652005)
-- LinkedIn: [sanjayp-dev](https://linkedin.com/in/sanjayp-dev)
-- Portfolio: [sanjay-dev-portfolio.netlify.app](https://sanjay-dev-portfolio.netlify.app)
+**Sanjay P**  
+Full Stack Developer | Java + MERN | Graduating 2026
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-sanjay--dev--portfolio.netlify.app-FFD54F?style=flat-square)](https://sanjay-dev-portfolio.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/sanjay-p-dev)
+[![GitHub](https://img.shields.io/badge/GitHub-@sanjay--p-181717?style=flat-square&logo=github)](https://github.com/sanjay-p)
+[![Email](https://img.shields.io/badge/Email-sanjay.pdev@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:sanjay.pdev@gmail.com)
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:6366f1&height=100&section=footer" width="100%"/>
+
+⭐ **If NotesMind helped you, leave a star — it means a lot!**
+
+*Built with ☕ and way too many notes by Sanjay P*
+
 </div>
