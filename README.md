@@ -1,15 +1,12 @@
 <div align="center">
 
-<!--  BRAIN HEADER SVG — paste inline, works on GitHub with no external hosting -->
 <svg width="100%" viewBox="0 0 680 320" role="img" xmlns="http://www.w3.org/2000/svg">
 <title>NotesMind — AI-Powered Notes Platform</title>
-<desc>A glowing AI brain made of circuit paths and neural nodes, representing NotesMind's intelligence</desc>
+<desc>A glowing AI brain with violet circuit traces and neural nodes on a deep purple background</desc>
 
-<!-- Dark background -->
-<rect width="680" height="320" fill="#080f08" rx="12"/>
+<rect width="680" height="320" fill="#0f0c29" rx="0"/>
 
-<!-- Subtle grid -->
-<g stroke="#1a2e1a" stroke-width="0.5" opacity="0.6">
+<g stroke="#1a1640" stroke-width="0.5" opacity="0.7">
   <line x1="0" y1="40" x2="680" y2="40"/><line x1="0" y1="80" x2="680" y2="80"/>
   <line x1="0" y1="120" x2="680" y2="120"/><line x1="0" y1="160" x2="680" y2="160"/>
   <line x1="0" y1="200" x2="680" y2="200"/><line x1="0" y1="240" x2="680" y2="240"/>
@@ -24,131 +21,108 @@
   <line x1="600" y1="0" x2="600" y2="320"/><line x1="640" y1="0" x2="640" y2="320"/>
 </g>
 
-<!-- Left hemisphere -->
-<ellipse cx="310" cy="118" rx="78" ry="72" fill="#0d1f0d" stroke="#81C784" stroke-width="1.5"/>
-<!-- Right hemisphere -->
-<ellipse cx="390" cy="118" rx="75" ry="70" fill="#0d1f0d" stroke="#81C784" stroke-width="1.5"/>
-<!-- Inter-hemispheric fissure -->
-<line x1="350" y1="52" x2="350" y2="178" stroke="#81C784" stroke-width="1.2" stroke-dasharray="4,3"/>
+<ellipse cx="310" cy="116" rx="79" ry="73" fill="#16123a" stroke="#a78bfa" stroke-width="1.5"/>
+<ellipse cx="390" cy="116" rx="76" ry="71" fill="#16123a" stroke="#a78bfa" stroke-width="1.5"/>
+<line x1="350" y1="49" x2="350" y2="178" stroke="#a78bfa" stroke-width="1.2" stroke-dasharray="4,3"/>
 
-<!-- Left hemisphere folds -->
-<path d="M260 95 Q275 82 292 92 Q308 102 318 90" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M258 118 Q272 105 288 115 Q304 125 316 113" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M262 140 Q278 128 295 138 Q311 148 320 137" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M272 158 Q286 148 300 156 Q313 164 322 154" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M248 105 Q256 90 268 98" fill="none" stroke="#81C784" stroke-width="1" stroke-linecap="round"/>
+<path d="M258 93 Q273 80 290 90 Q307 100 318 88" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M256 116 Q270 103 287 113 Q303 123 316 111" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M260 138 Q276 126 293 136 Q310 146 320 135" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M270 157 Q284 147 299 155 Q312 163 322 153" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M246 104 Q254 89 266 97" fill="none" stroke="#a78bfa" stroke-width="1" stroke-linecap="round"/>
+<path d="M383 86 Q397 76 411 86 Q425 96 438 84" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M381 110 Q395 98 409 108 Q423 118 440 106" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M383 133 Q397 122 411 132 Q425 142 440 131" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M385 154 Q399 145 412 153 Q426 160 437 151" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M442 100 Q451 88 460 98" fill="none" stroke="#a78bfa" stroke-width="1" stroke-linecap="round"/>
 
-<!-- Right hemisphere folds -->
-<path d="M384 88 Q398 78 412 88 Q426 98 438 86" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M382 112 Q396 100 410 110 Q424 120 440 108" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M384 135 Q398 124 412 134 Q426 144 440 133" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M386 156 Q400 147 413 155 Q427 162 438 152" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M443 102 Q452 90 460 100" fill="none" stroke="#81C784" stroke-width="1" stroke-linecap="round"/>
+<rect x="340" y="177" width="20" height="22" rx="4" fill="#16123a" stroke="#a78bfa" stroke-width="1.2"/>
 
-<!-- Brainstem -->
-<rect x="340" y="176" width="20" height="22" rx="4" fill="#0d1f0d" stroke="#81C784" stroke-width="1.2"/>
+<circle cx="281" cy="106" r="4" fill="#a78bfa"/>
+<circle cx="304" cy="126" r="3.5" fill="#7c3aed"/>
+<circle cx="289" cy="147" r="3" fill="#a78bfa"/>
+<circle cx="316" cy="107" r="3" fill="#8b5cf6"/>
+<circle cx="274" cy="129" r="3" fill="#c4b5fd"/>
+<circle cx="299" cy="154" r="3" fill="#a78bfa"/>
+<circle cx="374" cy="104" r="4" fill="#a78bfa"/>
+<circle cx="395" cy="127" r="3.5" fill="#7c3aed"/>
+<circle cx="416" cy="107" r="3" fill="#8b5cf6"/>
+<circle cx="410" cy="147" r="3" fill="#a78bfa"/>
+<circle cx="430" cy="127" r="3" fill="#c4b5fd"/>
+<circle cx="395" cy="154" r="3" fill="#a78bfa"/>
+<circle cx="350" cy="117" r="6" fill="#a78bfa" stroke="#c4b5fd" stroke-width="1.5"/>
 
-<!-- Neural nodes — left -->
-<circle cx="282" cy="108" r="4" fill="#81C784"/>
-<circle cx="305" cy="128" r="3.5" fill="#4CAF50"/>
-<circle cx="290" cy="148" r="3" fill="#81C784"/>
-<circle cx="316" cy="108" r="3" fill="#66BB6A"/>
-<circle cx="275" cy="130" r="3" fill="#A5D6A7"/>
-<circle cx="300" cy="155" r="3" fill="#81C784"/>
-<!-- Neural nodes — right -->
-<circle cx="374" cy="105" r="4" fill="#81C784"/>
-<circle cx="395" cy="128" r="3.5" fill="#4CAF50"/>
-<circle cx="416" cy="108" r="3" fill="#66BB6A"/>
-<circle cx="410" cy="148" r="3" fill="#81C784"/>
-<circle cx="430" cy="128" r="3" fill="#A5D6A7"/>
-<circle cx="395" cy="155" r="3" fill="#81C784"/>
-<!-- Center node -->
-<circle cx="350" cy="118" r="5" fill="#81C784" stroke="#A5D6A7" stroke-width="1.5"/>
-
-<!-- Synapse connections -->
-<g stroke="#4CAF50" stroke-width="0.8" fill="none" opacity="0.7">
-  <line x1="282" y1="108" x2="305" y2="128"/><line x1="305" y1="128" x2="290" y2="148"/>
-  <line x1="282" y1="108" x2="316" y2="108"/><line x1="316" y1="108" x2="305" y2="128"/>
-  <line x1="275" y1="130" x2="305" y2="128"/><line x1="305" y1="128" x2="300" y2="155"/>
-  <line x1="290" y1="148" x2="300" y2="155"/>
-  <line x1="374" y1="105" x2="395" y2="128"/><line x1="395" y1="128" x2="410" y2="148"/>
-  <line x1="416" y1="108" x2="395" y2="128"/><line x1="374" y1="105" x2="416" y2="108"/>
-  <line x1="430" y1="128" x2="395" y2="128"/><line x1="395" y1="128" x2="395" y2="155"/>
-  <line x1="410" y1="148" x2="395" y2="155"/>
-  <line x1="316" y1="108" x2="350" y2="118"/><line x1="350" y1="118" x2="374" y2="105"/>
-  <line x1="305" y1="128" x2="350" y2="118"/><line x1="350" y1="118" x2="395" y2="128"/>
+<g stroke="#7c3aed" stroke-width="0.9" fill="none" opacity="0.8">
+  <line x1="281" y1="106" x2="304" y2="126"/><line x1="304" y1="126" x2="289" y2="147"/>
+  <line x1="281" y1="106" x2="316" y2="107"/><line x1="316" y1="107" x2="304" y2="126"/>
+  <line x1="274" y1="129" x2="304" y2="126"/><line x1="304" y1="126" x2="299" y2="154"/>
+  <line x1="289" y1="147" x2="299" y2="154"/>
+  <line x1="374" y1="104" x2="395" y2="127"/><line x1="395" y1="127" x2="410" y2="147"/>
+  <line x1="416" y1="107" x2="395" y2="127"/><line x1="374" y1="104" x2="416" y2="107"/>
+  <line x1="430" y1="127" x2="395" y2="127"/><line x1="395" y1="127" x2="395" y2="154"/>
+  <line x1="410" y1="147" x2="395" y2="154"/>
+  <line x1="316" y1="107" x2="350" y2="117"/><line x1="350" y1="117" x2="374" y2="104"/>
+  <line x1="304" y1="126" x2="350" y2="117"/><line x1="350" y1="117" x2="395" y2="127"/>
 </g>
 
-<!-- Circuit traces — left -->
-<g stroke="#2E7D32" stroke-width="1" fill="none" opacity="0.9">
-  <polyline points="248,90 218,90 210,82 180,82"/>
-  <polyline points="248,105 220,105 212,97 185,97"/>
-  <polyline points="248,130 222,130 214,138 188,138"/>
-  <polyline points="260,158 235,158 228,165 200,165"/>
-  <polyline points="275,172 260,185 240,185 220,185"/>
+<g stroke="#4c1d95" stroke-width="1" fill="none" opacity="0.9">
+  <polyline points="247,88 218,88 210,80 180,80"/>
+  <polyline points="247,104 220,104 212,96 185,96"/>
+  <polyline points="247,129 222,129 214,137 188,137"/>
+  <polyline points="258,157 234,157 227,164 200,164"/>
+  <polyline points="274,172 259,185 239,185 218,185"/>
 </g>
-<!-- Circuit traces — right -->
-<g stroke="#2E7D32" stroke-width="1" fill="none" opacity="0.9">
-  <polyline points="455,90 480,90 488,82 510,82"/>
-  <polyline points="458,108 482,108 490,100 515,100"/>
-  <polyline points="453,132 478,132 486,140 512,140"/>
-  <polyline points="444,156 468,156 476,163 502,163"/>
-  <polyline points="440,172 456,185 476,185 498,185"/>
+<g stroke="#4c1d95" stroke-width="1" fill="none" opacity="0.9">
+  <polyline points="455,88 480,88 488,80 510,80"/>
+  <polyline points="457,106 482,106 490,98 515,98"/>
+  <polyline points="453,131 477,131 485,139 511,139"/>
+  <polyline points="443,155 467,155 475,162 501,162"/>
+  <polyline points="440,171 455,185 475,185 498,185"/>
 </g>
 
-<!-- Terminal dots -->
-<g fill="#81C784">
-  <circle cx="180" cy="82" r="3"/><circle cx="185" cy="97" r="3"/>
-  <circle cx="188" cy="138" r="3"/><circle cx="200" cy="165" r="3"/>
-  <circle cx="220" cy="185" r="3"/><circle cx="510" cy="82" r="3"/>
-  <circle cx="515" cy="100" r="3"/><circle cx="512" cy="140" r="3"/>
-  <circle cx="502" cy="163" r="3"/><circle cx="498" cy="185" r="3"/>
+<g fill="#a78bfa">
+  <circle cx="180" cy="80" r="3"/><circle cx="185" cy="96" r="3"/>
+  <circle cx="188" cy="137" r="3"/><circle cx="200" cy="164" r="3"/>
+  <circle cx="218" cy="185" r="3"/><circle cx="510" cy="80" r="3"/>
+  <circle cx="515" cy="98" r="3"/><circle cx="511" cy="139" r="3"/>
+  <circle cx="501" cy="162" r="3"/><circle cx="498" cy="185" r="3"/>
 </g>
 
-<!-- SMD pads -->
-<g fill="none" stroke="#4CAF50" stroke-width="0.8">
-  <rect x="174" y="78" width="6" height="8" rx="1"/>
-  <rect x="179" y="93" width="6" height="8" rx="1"/>
-  <rect x="182" y="134" width="6" height="8" rx="1"/>
-  <rect x="492" y="78" width="6" height="8" rx="1"/>
-  <rect x="497" y="96" width="6" height="8" rx="1"/>
-  <rect x="494" y="136" width="6" height="8" rx="1"/>
+<g fill="none" stroke="#6d28d9" stroke-width="0.8">
+  <rect x="174" y="76" width="6" height="8" rx="1"/>
+  <rect x="179" y="92" width="6" height="8" rx="1"/>
+  <rect x="182" y="133" width="6" height="8" rx="1"/>
+  <rect x="492" y="76" width="6" height="8" rx="1"/>
+  <rect x="497" y="94" width="6" height="8" rx="1"/>
+  <rect x="493" y="135" width="6" height="8" rx="1"/>
 </g>
 
-<!-- Floating data particles -->
-<g fill="#388E3C" opacity="0.5">
-  <circle cx="200" cy="60" r="2"/><circle cx="230" cy="45" r="1.5"/>
-  <circle cx="270" cy="38" r="2"/><circle cx="430" cy="40" r="1.5"/>
-  <circle cx="460" cy="52" r="2"/><circle cx="500" cy="45" r="1.5"/>
-  <circle cx="190" cy="200" r="1.5"/><circle cx="220" cy="210" r="2"/>
-  <circle cx="460" cy="205" r="2"/><circle cx="495" cy="215" r="1.5"/>
-  <circle cx="155" cy="115" r="1.5"/><circle cx="145" cy="145" r="2"/>
-  <circle cx="535" cy="112" r="1.5"/><circle cx="545" cy="145" r="2"/>
+<g fill="#6d28d9" opacity="0.5">
+  <circle cx="200" cy="58" r="2"/><circle cx="232" cy="44" r="1.5"/>
+  <circle cx="270" cy="36" r="2"/><circle cx="432" cy="38" r="1.5"/>
+  <circle cx="462" cy="50" r="2"/><circle cx="500" cy="43" r="1.5"/>
+  <circle cx="190" cy="200" r="1.5"/><circle cx="222" cy="210" r="2"/>
+  <circle cx="460" cy="205" r="2"/><circle cx="496" cy="213" r="1.5"/>
+  <circle cx="154" cy="113" r="1.5"/><circle cx="144" cy="144" r="2"/>
+  <circle cx="536" cy="110" r="1.5"/><circle cx="547" cy="143" r="2"/>
 </g>
 
-<!-- Scan line -->
-<line x1="232" y1="118" x2="468" y2="118" stroke="#1B5E20" stroke-width="0.6" stroke-dasharray="3,5" opacity="0.5"/>
+<line x1="231" y1="117" x2="469" y2="117" stroke="#3730a3" stroke-width="0.6" stroke-dasharray="3,5" opacity="0.6"/>
 
-<!-- Title -->
-<text x="350" y="232" text-anchor="middle" font-family="'Courier New', monospace" font-size="38" font-weight="700" fill="#81C784" letter-spacing="6">NotesMind</text>
-<!-- Subtitle -->
-<text x="350" y="262" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#4CAF50" letter-spacing="2">AI-POWERED NOTES &amp; ACADEMIC RESOURCE PLATFORM</text>
+<text x="350" y="232" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="700" fill="#a78bfa" letter-spacing="5">NotesMind</text>
+<text x="350" y="262" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#7c3aed" letter-spacing="3">AI-POWERED NOTES &amp; ACADEMIC RESOURCE PLATFORM</text>
 
-<!-- Bottom pulse line -->
-<line x1="120" y1="278" x2="560" y2="278" stroke="#1B5E20" stroke-width="0.8" opacity="0.6"/>
-<circle cx="350" cy="278" r="3" fill="#81C784"/>
-<circle cx="350" cy="278" r="6" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.4"/>
+<line x1="100" y1="279" x2="580" y2="279" stroke="#3730a3" stroke-width="0.8" opacity="0.7"/>
+<circle cx="350" cy="279" r="3" fill="#a78bfa"/>
+<circle cx="350" cy="279" r="7" fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.3"/>
 
-<!-- Corner brackets -->
-<g stroke="#2E7D32" stroke-width="1.2" fill="none">
-  <polyline points="20,20 20,8 32,8"/>
-  <polyline points="660,20 660,8 648,8"/>
-  <polyline points="20,300 20,312 32,312"/>
-  <polyline points="660,300 660,312 648,312"/>
+<g stroke="#4c1d95" stroke-width="1.2" fill="none">
+  <polyline points="20,22 20,8 34,8"/>
+  <polyline points="660,22 660,8 646,8"/>
+  <polyline points="20,298 20,312 34,312"/>
+  <polyline points="660,298 660,312 646,312"/>
 </g>
-
-<!-- Version -->
-<text x="636" y="18" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#2E7D32">v2.0.0</text>
+<text x="646" y="18" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#4c1d95">v2.0.0</text>
 </svg>
 
 <br/>
@@ -158,13 +132,13 @@
 [![Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/sanjay-p/notes-sharing)
 [![AI](https://img.shields.io/badge/AI-Groq_%7C_Llama_3.1-FF6B35?style=for-the-badge)](https://groq.com)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/sanjay-p/notes-sharing)
-[![License](https://img.shields.io/badge/License-MIT-81C784?style=for-the-badge)](./LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-A78BFA?style=for-the-badge)](./LICENSE)
 
 <br/>
 
-![GitHub stars](https://img.shields.io/github/stars/sanjay-p/notes-sharing?style=social)
-![GitHub forks](https://img.shields.io/github/forks/sanjay-p/notes-sharing?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/sanjay-p/notes-sharing?color=81C784)
+![GitHub stars](https://img.shields.io/github/stars/sanjay652005/notes-sharing?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sanjay652005/notes-sharing?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/sanjay652005/notes-sharing?color=a78bfa)
 
 </div>
 
@@ -236,7 +210,7 @@ DevOps        Docker · Docker Compose · Vercel · Render
 ### Why Groq + Llama 3.1?
 - **Groq's LPU inference** delivers ultra-fast AI responses (vs standard GPU APIs)
 - **Llama 3.1 70B** provides accurate, context-aware note analysis
-- **Zero cold-start** on AI responses — summaries generate in under 2 seconds
+- Summaries generate in under 2 seconds — no cold-start delay
 
 ---
 
@@ -250,7 +224,7 @@ DevOps        Docker · Docker Compose · Vercel · Render
 ### 1. Clone
 
 ```bash
-git clone https://github.com/sanjay-p/notes-sharing.git
+git clone https://github.com/sanjay652005/notes-sharing.git
 cd notes-sharing
 ```
 
@@ -362,18 +336,16 @@ notes-sharing/
 │   │   ├── note.routes.js
 │   │   ├── ai.routes.js
 │   │   └── search.routes.js
-│   ├── uploads/                  # Multer upload destination
+│   ├── uploads/
 │   └── server.js
-│
 ├── frontend/
 │   ├── src/
-│   │   ├── components/           # Reusable UI (NoteCard, ChatBox, etc.)
-│   │   ├── pages/                # Dashboard, Login, Register, NoteView
-│   │   ├── hooks/                # useAuth, useNotes
-│   │   ├── services/             # Axios API calls
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── services/
 │   │   └── App.jsx
 │   └── vite.config.js
-│
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
@@ -404,17 +376,9 @@ notes-sharing/
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
 ```bash
-# 1. Fork the repo
-# 2. Create your feature branch
 git checkout -b feature/your-feature-name
-
-# 3. Commit with conventional commits
 git commit -m "feat: add your feature"
-
-# 4. Push and open a PR
 git push origin feature/your-feature-name
 ```
 
@@ -432,15 +396,17 @@ Licensed under the **MIT License** — see [LICENSE](./LICENSE) for details.
 
 **Sanjay P** — Full Stack Developer · Java + MERN · Graduating 2026
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-sanjay--dev--portfolio.netlify.app-FFD54F?style=flat-square&logo=netlify&logoColor=black)](https://sanjay-dev-portfolio.netlify.app)
-[![GitHub](https://img.shields.io/badge/GitHub-@sanjay--p-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sanjay-p)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanjay-p-90999a307)
-[![Email](https://img.shields.io/badge/Email-sanjay.pdev@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanjay.pdev@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sanjay--dev--portfolio.netlify.app-A78BFA?style=flat-square&logo=netlify&logoColor=white)](https://sanjay-dev-portfolio.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-sanjay652005-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sanjay652005)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanjayp-dev)
+[![Email](https://img.shields.io/badge/Gmail-sanjay652005@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanjay652005@gmail.com)
 
 ---
 
 <div align="center">
 
 ⭐ **Found NotesMind useful? Drop a star — it helps more people find it!**
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
 
 </div>
