@@ -1,6 +1,155 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090909,50:0d1f0d,100:090909&height=200&section=header&text=NotesMind&fontSize=60&fontColor=81C784&fontAlignY=38&desc=AI-Powered%20Notes%20%26%20Academic%20Resource%20Platform&descAlignY=58&descSize=18&descColor=ffffff" width="100%"/>
+<!--  BRAIN HEADER SVG — paste inline, works on GitHub with no external hosting -->
+<svg width="100%" viewBox="0 0 680 320" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>NotesMind — AI-Powered Notes Platform</title>
+<desc>A glowing AI brain made of circuit paths and neural nodes, representing NotesMind's intelligence</desc>
+
+<!-- Dark background -->
+<rect width="680" height="320" fill="#080f08" rx="12"/>
+
+<!-- Subtle grid -->
+<g stroke="#1a2e1a" stroke-width="0.5" opacity="0.6">
+  <line x1="0" y1="40" x2="680" y2="40"/><line x1="0" y1="80" x2="680" y2="80"/>
+  <line x1="0" y1="120" x2="680" y2="120"/><line x1="0" y1="160" x2="680" y2="160"/>
+  <line x1="0" y1="200" x2="680" y2="200"/><line x1="0" y1="240" x2="680" y2="240"/>
+  <line x1="0" y1="280" x2="680" y2="280"/>
+  <line x1="40" y1="0" x2="40" y2="320"/><line x1="80" y1="0" x2="80" y2="320"/>
+  <line x1="120" y1="0" x2="120" y2="320"/><line x1="160" y1="0" x2="160" y2="320"/>
+  <line x1="200" y1="0" x2="200" y2="320"/><line x1="240" y1="0" x2="240" y2="320"/>
+  <line x1="280" y1="0" x2="280" y2="320"/><line x1="320" y1="0" x2="320" y2="320"/>
+  <line x1="360" y1="0" x2="360" y2="320"/><line x1="400" y1="0" x2="400" y2="320"/>
+  <line x1="440" y1="0" x2="440" y2="320"/><line x1="480" y1="0" x2="480" y2="320"/>
+  <line x1="520" y1="0" x2="520" y2="320"/><line x1="560" y1="0" x2="560" y2="320"/>
+  <line x1="600" y1="0" x2="600" y2="320"/><line x1="640" y1="0" x2="640" y2="320"/>
+</g>
+
+<!-- Left hemisphere -->
+<ellipse cx="310" cy="118" rx="78" ry="72" fill="#0d1f0d" stroke="#81C784" stroke-width="1.5"/>
+<!-- Right hemisphere -->
+<ellipse cx="390" cy="118" rx="75" ry="70" fill="#0d1f0d" stroke="#81C784" stroke-width="1.5"/>
+<!-- Inter-hemispheric fissure -->
+<line x1="350" y1="52" x2="350" y2="178" stroke="#81C784" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+<!-- Left hemisphere folds -->
+<path d="M260 95 Q275 82 292 92 Q308 102 318 90" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M258 118 Q272 105 288 115 Q304 125 316 113" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M262 140 Q278 128 295 138 Q311 148 320 137" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M272 158 Q286 148 300 156 Q313 164 322 154" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M248 105 Q256 90 268 98" fill="none" stroke="#81C784" stroke-width="1" stroke-linecap="round"/>
+
+<!-- Right hemisphere folds -->
+<path d="M384 88 Q398 78 412 88 Q426 98 438 86" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M382 112 Q396 100 410 110 Q424 120 440 108" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M384 135 Q398 124 412 134 Q426 144 440 133" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M386 156 Q400 147 413 155 Q427 162 438 152" fill="none" stroke="#81C784" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M443 102 Q452 90 460 100" fill="none" stroke="#81C784" stroke-width="1" stroke-linecap="round"/>
+
+<!-- Brainstem -->
+<rect x="340" y="176" width="20" height="22" rx="4" fill="#0d1f0d" stroke="#81C784" stroke-width="1.2"/>
+
+<!-- Neural nodes — left -->
+<circle cx="282" cy="108" r="4" fill="#81C784"/>
+<circle cx="305" cy="128" r="3.5" fill="#4CAF50"/>
+<circle cx="290" cy="148" r="3" fill="#81C784"/>
+<circle cx="316" cy="108" r="3" fill="#66BB6A"/>
+<circle cx="275" cy="130" r="3" fill="#A5D6A7"/>
+<circle cx="300" cy="155" r="3" fill="#81C784"/>
+<!-- Neural nodes — right -->
+<circle cx="374" cy="105" r="4" fill="#81C784"/>
+<circle cx="395" cy="128" r="3.5" fill="#4CAF50"/>
+<circle cx="416" cy="108" r="3" fill="#66BB6A"/>
+<circle cx="410" cy="148" r="3" fill="#81C784"/>
+<circle cx="430" cy="128" r="3" fill="#A5D6A7"/>
+<circle cx="395" cy="155" r="3" fill="#81C784"/>
+<!-- Center node -->
+<circle cx="350" cy="118" r="5" fill="#81C784" stroke="#A5D6A7" stroke-width="1.5"/>
+
+<!-- Synapse connections -->
+<g stroke="#4CAF50" stroke-width="0.8" fill="none" opacity="0.7">
+  <line x1="282" y1="108" x2="305" y2="128"/><line x1="305" y1="128" x2="290" y2="148"/>
+  <line x1="282" y1="108" x2="316" y2="108"/><line x1="316" y1="108" x2="305" y2="128"/>
+  <line x1="275" y1="130" x2="305" y2="128"/><line x1="305" y1="128" x2="300" y2="155"/>
+  <line x1="290" y1="148" x2="300" y2="155"/>
+  <line x1="374" y1="105" x2="395" y2="128"/><line x1="395" y1="128" x2="410" y2="148"/>
+  <line x1="416" y1="108" x2="395" y2="128"/><line x1="374" y1="105" x2="416" y2="108"/>
+  <line x1="430" y1="128" x2="395" y2="128"/><line x1="395" y1="128" x2="395" y2="155"/>
+  <line x1="410" y1="148" x2="395" y2="155"/>
+  <line x1="316" y1="108" x2="350" y2="118"/><line x1="350" y1="118" x2="374" y2="105"/>
+  <line x1="305" y1="128" x2="350" y2="118"/><line x1="350" y1="118" x2="395" y2="128"/>
+</g>
+
+<!-- Circuit traces — left -->
+<g stroke="#2E7D32" stroke-width="1" fill="none" opacity="0.9">
+  <polyline points="248,90 218,90 210,82 180,82"/>
+  <polyline points="248,105 220,105 212,97 185,97"/>
+  <polyline points="248,130 222,130 214,138 188,138"/>
+  <polyline points="260,158 235,158 228,165 200,165"/>
+  <polyline points="275,172 260,185 240,185 220,185"/>
+</g>
+<!-- Circuit traces — right -->
+<g stroke="#2E7D32" stroke-width="1" fill="none" opacity="0.9">
+  <polyline points="455,90 480,90 488,82 510,82"/>
+  <polyline points="458,108 482,108 490,100 515,100"/>
+  <polyline points="453,132 478,132 486,140 512,140"/>
+  <polyline points="444,156 468,156 476,163 502,163"/>
+  <polyline points="440,172 456,185 476,185 498,185"/>
+</g>
+
+<!-- Terminal dots -->
+<g fill="#81C784">
+  <circle cx="180" cy="82" r="3"/><circle cx="185" cy="97" r="3"/>
+  <circle cx="188" cy="138" r="3"/><circle cx="200" cy="165" r="3"/>
+  <circle cx="220" cy="185" r="3"/><circle cx="510" cy="82" r="3"/>
+  <circle cx="515" cy="100" r="3"/><circle cx="512" cy="140" r="3"/>
+  <circle cx="502" cy="163" r="3"/><circle cx="498" cy="185" r="3"/>
+</g>
+
+<!-- SMD pads -->
+<g fill="none" stroke="#4CAF50" stroke-width="0.8">
+  <rect x="174" y="78" width="6" height="8" rx="1"/>
+  <rect x="179" y="93" width="6" height="8" rx="1"/>
+  <rect x="182" y="134" width="6" height="8" rx="1"/>
+  <rect x="492" y="78" width="6" height="8" rx="1"/>
+  <rect x="497" y="96" width="6" height="8" rx="1"/>
+  <rect x="494" y="136" width="6" height="8" rx="1"/>
+</g>
+
+<!-- Floating data particles -->
+<g fill="#388E3C" opacity="0.5">
+  <circle cx="200" cy="60" r="2"/><circle cx="230" cy="45" r="1.5"/>
+  <circle cx="270" cy="38" r="2"/><circle cx="430" cy="40" r="1.5"/>
+  <circle cx="460" cy="52" r="2"/><circle cx="500" cy="45" r="1.5"/>
+  <circle cx="190" cy="200" r="1.5"/><circle cx="220" cy="210" r="2"/>
+  <circle cx="460" cy="205" r="2"/><circle cx="495" cy="215" r="1.5"/>
+  <circle cx="155" cy="115" r="1.5"/><circle cx="145" cy="145" r="2"/>
+  <circle cx="535" cy="112" r="1.5"/><circle cx="545" cy="145" r="2"/>
+</g>
+
+<!-- Scan line -->
+<line x1="232" y1="118" x2="468" y2="118" stroke="#1B5E20" stroke-width="0.6" stroke-dasharray="3,5" opacity="0.5"/>
+
+<!-- Title -->
+<text x="350" y="232" text-anchor="middle" font-family="'Courier New', monospace" font-size="38" font-weight="700" fill="#81C784" letter-spacing="6">NotesMind</text>
+<!-- Subtitle -->
+<text x="350" y="262" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#4CAF50" letter-spacing="2">AI-POWERED NOTES &amp; ACADEMIC RESOURCE PLATFORM</text>
+
+<!-- Bottom pulse line -->
+<line x1="120" y1="278" x2="560" y2="278" stroke="#1B5E20" stroke-width="0.8" opacity="0.6"/>
+<circle cx="350" cy="278" r="3" fill="#81C784"/>
+<circle cx="350" cy="278" r="6" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.4"/>
+
+<!-- Corner brackets -->
+<g stroke="#2E7D32" stroke-width="1.2" fill="none">
+  <polyline points="20,20 20,8 32,8"/>
+  <polyline points="660,20 660,8 648,8"/>
+  <polyline points="20,300 20,312 32,312"/>
+  <polyline points="660,300 660,312 648,312"/>
+</g>
+
+<!-- Version -->
+<text x="636" y="18" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#2E7D32">v2.0.0</text>
+</svg>
 
 <br/>
 
@@ -293,7 +442,5 @@ Licensed under the **MIT License** — see [LICENSE](./LICENSE) for details.
 <div align="center">
 
 ⭐ **Found NotesMind useful? Drop a star — it helps more people find it!**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090909,50:0d1f0d,100:090909&height=100&section=footer" width="100%"/>
 
 </div>
